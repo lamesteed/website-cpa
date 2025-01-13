@@ -18,6 +18,8 @@
     }
     .container {
       max-width: 600px;
+      text-align: center; /* Center-aligns text and loader */
+      margin: 0 auto;
     }
     h1 {
       font-size: 3rem;
@@ -33,6 +35,7 @@
       border-radius: 50%;
       width: 50px;
       height: 50px;
+      margin: 20px auto; /* Centers loader horizontally */
       animation: spin 1s linear infinite;
     }
     @keyframes spin {
@@ -44,9 +47,9 @@
 <body>
   <div class="container">
     <h1>We're Working on It!</h1>
-    <p>Our website is currently under construction. Check back soon!</p>
+    <p>Our website is currently under construction.</p>
+    <p>Check back soon!</p>
     <div class="loader"></div>
   </div>
 </body>
 </html>
-
